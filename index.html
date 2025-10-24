@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>解謎遊戲</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <section id="intro">
+      <h1>神秘的迷霧城</h1>
+      <p>你收到一封匿名信，說這座城市藏著秘密。破解每一關的謎題，找出真相！</p>
+      <button id="startBtn">開始遊戲</button>
+    </section>
+
+    <section id="puzzle" style="display:none;">
+      <h2 id="puzzleTitle"></h2>
+      <p id="puzzleDesc"></p>
+      <input id="answer" type="text" placeholder="輸入答案" />
+      <button id="submitBtn">提交</button>
+      <p id="feedback"></p>
+      <button id="nextBtn" style="display:none;">下一關</button>
+    </section>
+
+    <section id="end" style="display:none;">
+      <h1>恭喜你完成所有謎題！🎉</h1>
+      <button id="restartBtn">重新開始</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
