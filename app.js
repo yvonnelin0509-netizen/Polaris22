@@ -1,18 +1,18 @@
 const puzzles = [
   {
-    title: "第一關：古老的石碑",
-    desc: "石碑上寫著：『日月同行』。請輸入兩個字母的密碼（小寫）提示：日=R，月=S。",
-    answer: "rs"
+    title: "第一關：哈哈哈哈",
+    desc: "打嘻嘻",
+    answer: "嘻嘻"
   },
   {
-    title: "第二關：數字密碼",
-    desc: "提示：把 3、1、4 轉成字母（a=1, b=2...）。",
-    answer: "cad"
+    title: "第二關：嘻嘻嘻嘻",
+    desc: "打哈哈",
+    answer: "哈哈"
   },
   {
-    title: "第三關：終極之門",
-    desc: "請輸入「love」",
-    answer: "love"
+    title: "第三關：啊啊啊啊",
+    desc: "打早安",
+    answer: "早安"
   }
 ];
 
@@ -68,9 +68,9 @@ function checkAnswer() {
   const correct = puzzles[current].answer.toLowerCase();
 
   if (user === correct) {
-    feedback.textContent = "✅ 答對了！";
+    feedback.textContent = "Correct";
     nextBtn.style.display = "inline-block";
   } else {
-    feedback.textContent = "❌ 錯誤，請再試一次。";
+    feedback.textContent = "Wrong";
   }
 }
