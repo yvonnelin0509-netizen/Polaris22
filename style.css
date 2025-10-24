@@ -1,0 +1,22 @@
+body {
+  background: #0e1525;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+button {
+  background: #9bd0ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  width: 60%;
+  margin-top: 10px;
+}
